@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Poetry
+.poetry/
+poetry.toml
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.html
+coverage.xml
+
+# Logs
+logs/
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Project specific
+# Keep the .env.example file but ignore the actual .env file
+!.env.example
